@@ -1,0 +1,24 @@
+This was an attempt to extract an itemized list of groceries using computer vision capabilities.
+The goal: visibility on expenses, summarizing expense list with the aim of optimizing life. Balancing necessities and indulgences.
+
+Challenges faced in phase 1:
+
+1) Receipts must be clear images and flattened, requires additional work to take photos with that kind of clarity
+
+2) Receipts must be printed with high contrast ink, light ink makes it hard for the text extraction to happen
+    This poses problems for receipt extraction, but provided consideration to extract this information earlier in the
+    process.
+
+3) Markings and practices at stores can make the receipt capture process a time crucial process. For example,
+    the Costco receipt used to extract has markings on it as part of the process in leaving the store.
+
+Conclusion: The receipts text value offer risk. The physical receipt is a barrier. Digital receipts are available and could be used.
+The problem I aim to solve is greater granularity in expenses. Today's work reveals an easier access point for this information. Since
+the receipt is already itemized and digitized, then this information could be passed to users without the need for a physical receipt.
+
+Next steps:
+
+1) Understand how this problem is being handled right now
+2) Reach out to the companies responsible for "checkout" technology, see if they're interested in brainstorming
+3) Find additonal text extraction models to work with
+4) Generate summaries on recipets used and document specific issues between the image and extracted text
